@@ -13,6 +13,7 @@ public class S_HoverObj : MonoBehaviour
     {
         if (Inspection.activeSelf)
             return;
+        print("oui");
         Ray ray = Camera.main.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (GetComponent<Collider>().Raycast(ray, out hit, 100f))

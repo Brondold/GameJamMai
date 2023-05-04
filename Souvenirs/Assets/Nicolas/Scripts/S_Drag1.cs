@@ -1,8 +1,8 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class S_Drag : MonoBehaviour
+public class S_Drag1 : MonoBehaviour
 {
     private Vector3 lastPos, currPos;
     private float rotationSpeed = -0.2f;
@@ -25,4 +25,3 @@ public class S_Drag : MonoBehaviour
         lastPos = Input.mousePosition;
     }
 }
-*/
