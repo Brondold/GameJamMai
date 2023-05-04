@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TableSelection : MonoBehaviour
 {
-    public CinemachineVirtualCamera currentCamera;
+    //public CinemachineVirtualCamera currentCamera;
 
     public Camera camera_grenier;
     public Camera camera_atelier;
