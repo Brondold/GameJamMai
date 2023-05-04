@@ -11,7 +11,7 @@ public class S_HoverObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Inspection.active)
+        if (Inspection.activeSelf)
             return;
         Ray ray = Camera.main.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
