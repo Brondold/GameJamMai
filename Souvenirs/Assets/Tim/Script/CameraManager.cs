@@ -14,7 +14,6 @@ public class CameraManager : MonoBehaviour
 
     public GameObject album;
 
-
     public GameObject verif;
 
     public CinemachineVirtualCamera currentCamera;
