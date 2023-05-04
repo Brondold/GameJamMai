@@ -618,7 +618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7d14057518a2e42ac3f28ac4295826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angle: 0
 --- !u!4 &424728823
 Transform:
   m_ObjectHideFlags: 0
@@ -1349,7 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c042ba0961377c34dbc1f33e0f604afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 50
+  rotationSpeed: 250
   targetRotation: 90
   targetRotationLeft: -90
   smoothTime: 0.5
@@ -1365,11 +1364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ffb36e7f69b304891a4d2d1156a4ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 50
-  targetRotation: -90
-  smoothTime: 0.5
-  currentRotation: 0
-  isRotating: 0
 --- !u!1 &1904104306
 GameObject:
   m_ObjectHideFlags: 0
