@@ -2,28 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DragAndDrop : MonoBehaviour
+public class S_Drag : MonoBehaviour
 {
     Vector3 mousePosition;
     public bool Available;
-    
-   void Start()
-   {
-    Available = true;
-   }
-    
-    public void TrueAvailable()
+    void start()
     {
         Available = true;
     }
-    public void FalseAvailable()
+
+    public void EnableAvai()
+    {
+        Available = true;
+    }
+
+    public void DisableAvai()
     {
         Available = false;
     }
+    
     public Vector3 GetMousePos()
     {
         //print("Pos");
-        return Camera.main.WorldToScreenPoint(transform.position);
+        return Camera.main.WorldToScreenPoint(transform.parent.position);
     }
 
     public void OnMouseDown()
@@ -34,11 +35,9 @@ public class DragAndDrop : MonoBehaviour
 
     public void OnMouseDrag()
     {
-        //Debug.Log("Drag");
         if(Available == true)
         {
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition - mousePosition);
+            transform.parent.position = Camera.main.ScreenToWorldPoint(Input.mousePosition - mousePosition);
         }
-        
     }
 }
