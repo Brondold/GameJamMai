@@ -868,7 +868,8 @@ MonoBehaviour:
   - Cube_Bleu
   - Cube_Blanc
   audiosource: {fileID: 785337573}
-  throwSound: {fileID: 8300000, guid: 1d6041c78f220bf4084f4c540f53c1a9, type: 3}
+  throwSound: {fileID: 8300000, guid: 4186e5b44ec00a042afff92b7ea44000, type: 3}
+  audioSource: {fileID: 785337572}
 --- !u!114 &620482974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,12 +1083,12 @@ GameObject:
   - component: {fileID: 785337574}
   - component: {fileID: 785337573}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &785337573
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1098,7 +1099,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1d6041c78f220bf4084f4c540f53c1a9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4186e5b44ec00a042afff92b7ea44000, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
