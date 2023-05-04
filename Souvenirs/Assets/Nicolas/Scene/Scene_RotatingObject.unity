@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 567586164}
   - component: {fileID: 567586163}
   - component: {fileID: 567586166}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube_Blanc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567586160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100, y: 100, z: 0}
+  m_LocalPosition: {x: 4.18, y: 3.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1521,7 +1521,7 @@ GameObject:
   - component: {fileID: 1816282286}
   - component: {fileID: 1816282285}
   - component: {fileID: 1816282288}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube_Rouge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,7 +1536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816282282}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100, y: 100, z: -1.119}
+  m_LocalPosition: {x: 4.18, y: 3.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1631,7 +1631,7 @@ GameObject:
   - component: {fileID: 1828281935}
   - component: {fileID: 1828281934}
   - component: {fileID: 1828281937}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Cube_Bleu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1828281931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100, y: 100, z: 1.219}
+  m_LocalPosition: {x: 4.18, y: 3.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

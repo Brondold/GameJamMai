@@ -17,7 +17,7 @@ public class CameraManager : MonoBehaviour
 
     public GameObject verif;
 
-    public CinemachineVirtualCamera currentCamera;
+    //public CinemachineVirtualCamera currentCamera;
 
     public void RetourCamera()
     {
