@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class S_Drag : MonoBehaviour
+public class S_RotateObj : MonoBehaviour
 {
     private Vector3 lastPos, currPos;
     private float rotationSpeed = -0.2f;
