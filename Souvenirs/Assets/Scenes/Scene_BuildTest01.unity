@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -705,9 +705,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 952848998}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
 --- !u!4 &42998703
 Transform:
   m_ObjectHideFlags: 0
@@ -2424,9 +2426,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 233722734}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
 --- !u!1 &252673719
 GameObject:
   m_ObjectHideFlags: 0
@@ -5510,9 +5514,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 952848998}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
 --- !u!4 &952849001
 Transform:
   m_ObjectHideFlags: 0
@@ -6240,9 +6246,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 952848998}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
   verif: {fileID: 125527141}
 --- !u!4 &1187966567
 Transform:
@@ -6443,9 +6451,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 952848998}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
 --- !u!4 &1208041132
 Transform:
   m_ObjectHideFlags: 0
@@ -6954,9 +6964,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 1340178290}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
 --- !u!1 &1385667592
 GameObject:
   m_ObjectHideFlags: 0
@@ -7024,9 +7036,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 1385667592}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
 --- !u!1 &1394705389
 GameObject:
   m_ObjectHideFlags: 0
@@ -7094,9 +7108,9 @@ RectTransform:
   m_Father: {fileID: 1856816582}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500, y: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 74, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397383089
@@ -8082,9 +8096,9 @@ RectTransform:
   m_Father: {fileID: 1856816582}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -69, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464588624
@@ -8439,15 +8453,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jouet_1_fin: 0
-  jouet_2_fin: 0
-  jouet_3_fin: 0
-  jouet_1: {fileID: 2065526339}
-  jouet_2: {fileID: 1488304232}
-  jouet_3: {fileID: 1536462263}
-  texte_1: {fileID: 516822306}
-  texte_2: {fileID: 385540708}
-  texte_3: {fileID: 2008802839}
-  photo_1: {fileID: 750493455}
+  jouet: {fileID: 0}
+  texte: {fileID: 0}
+  photo: {fileID: 0}
 --- !u!65 &1488304235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8700,15 +8708,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jouet_1_fin: 0
-  jouet_2_fin: 0
-  jouet_3_fin: 0
-  jouet_1: {fileID: 0}
-  jouet_2: {fileID: 0}
-  jouet_3: {fileID: 0}
-  texte_1: {fileID: 0}
-  texte_2: {fileID: 0}
-  texte_3: {fileID: 0}
-  photo_1: {fileID: 0}
+  jouet: {fileID: 0}
+  texte: {fileID: 0}
+  photo: {fileID: 0}
 --- !u!65 &1536462266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9122,9 +9124,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 952848998}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
   verif: {fileID: 125527141}
 --- !u!4 &1707171473
 Transform:
@@ -9628,9 +9632,11 @@ MonoBehaviour:
   caisse_atelier_1: {fileID: 1729000673}
   caisse_atelier_2: {fileID: 1707171470}
   caisse_atelier_3: {fileID: 1187966563}
+  caisse_atelier_4: {fileID: 0}
   caisse_grenier_1: {fileID: 952848998}
   caisse_grenier_2: {fileID: 42998700}
   caisse_grenier_3: {fileID: 1208041129}
+  caisse_grenier_4: {fileID: 0}
   verif: {fileID: 125527141}
 --- !u!4 &1729000676
 Transform:
@@ -12164,15 +12170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jouet_1_fin: 0
-  jouet_2_fin: 0
-  jouet_3_fin: 0
-  jouet_1: {fileID: 2065526339}
-  jouet_2: {fileID: 1488304232}
-  jouet_3: {fileID: 1536462263}
-  texte_1: {fileID: 516822306}
-  texte_2: {fileID: 385540708}
-  texte_3: {fileID: 2008802839}
-  photo_1: {fileID: 750493455}
+  jouet: {fileID: 0}
+  texte: {fileID: 0}
+  photo: {fileID: 0}
 --- !u!65 &2065526341
 BoxCollider:
   m_ObjectHideFlags: 0
