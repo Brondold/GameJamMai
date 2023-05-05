@@ -14,6 +14,8 @@ public class S_ParkingManager : MonoBehaviour
 
     public GameObject texte;
 
+    public GameObject fond;
+
 
     public GameObject photo;
 
@@ -40,6 +42,7 @@ public class S_ParkingManager : MonoBehaviour
         {
             photo.SetActive(true);
             texte.SetActive(true);
+            fond.SetActive(true);
             StartCoroutine(Texte_1());
 
 
@@ -51,6 +54,7 @@ public class S_ParkingManager : MonoBehaviour
         yield return new WaitForSeconds(5.0f);
         texte.SetActive(false);
         jouet.SetActive(false);
+        fond.SetActive(false);
     }
 
 }
