@@ -14,7 +14,7 @@ public class ObjectSelector : MonoBehaviour
     private GameObject selection;
     private bool isSelected = false;
     private float throwForce = 20f;
-    private float distance = 1f;
+    private float distance = 0.5f;
 
     // Update is called once per frame
     void Update()
@@ -60,7 +60,7 @@ public class ObjectSelector : MonoBehaviour
                 float h = horizontalSpeed * Input.GetAxis("Mouse X");
                 float v = verticalSpeed * Input.GetAxis("Mouse Y");
                 selection.transform.Rotate(Vector3.up, -h, Space.World);
-                selection.transform.Rotate(Vector3.right, v, Space.World);
+                selection.transform.Rotate(Vector3.left, v, Space.World);
             }
         }
 
