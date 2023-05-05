@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Piece1
+  - Piece2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Outline_Object
   - Water
   - UI
   - 
