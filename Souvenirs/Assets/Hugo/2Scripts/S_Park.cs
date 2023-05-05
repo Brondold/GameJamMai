@@ -15,7 +15,7 @@ public class S_Park : MonoBehaviour
         if (other.gameObject.name == TargetPark) 
         {
             InArea = true;
-            SelfHandle.GetComponent<S_Drag>().DisableAvai();
+            SelfHandle.GetComponent<S_DragBuild>().DisableAvai();
             transform.parent.position = SelfParkPlace.position;
         }
    }
