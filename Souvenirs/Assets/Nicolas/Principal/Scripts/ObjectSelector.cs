@@ -89,6 +89,7 @@ public class ObjectSelector : MonoBehaviour
             // Ajouter une force au Rigidbody de l'objet dans la direction de la caméra du joueur
             Rigidbody rb = selection.GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * throwForce, ForceMode.Impulse);
+            rb.useGravity = true;
 
             // Joue le son de jet de l'objet
             audioSource.SetActive(true);
