@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuPrincipal : MonoBehaviour
 {
     public GameObject CreditsPanel;
+    public GameObject AlienPanel;
     public void PlayGame()
     {
         SceneManager.LoadScene("TestAssemble");
@@ -30,5 +31,16 @@ public class MenuPrincipal : MonoBehaviour
         {
             CreditsPanel.SetActive(true);
         }
+    }
+
+    public void Alien()
+    {
+        StartCoroutine(WaitAlien());
+    }
+
+    public IEnumerator WaitAlien()
+    {
+        yield return new WaitForSeconds(7f);
+        AlienPanel.SetActive(false);
     }
 }
