@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuPrincipal : MonoBehaviour
 {
+    public GameObject CreditsPanel;
     public void PlayGame()
     {
         SceneManager.LoadScene("TestAssemble");
@@ -17,5 +18,17 @@ public class MenuPrincipal : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("MenuPrincipal_00");
+    }
+
+    public void Credits()
+    {
+        if(CreditsPanel.activeSelf)
+        {
+            CreditsPanel.SetActive(false);
+        }
+        else
+        {
+            CreditsPanel.SetActive(true);
+        }
     }
 }
