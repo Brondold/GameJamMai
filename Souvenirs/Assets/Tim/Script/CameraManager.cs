@@ -14,6 +14,9 @@ public class CameraManager : MonoBehaviour
 
     public GameObject album;
 
+    public GameObject fleche1;
+    public GameObject fleche2;
+
     public GameObject verif;
 
     //public CinemachineVirtualCamera currentCamera;
@@ -28,6 +31,9 @@ public class CameraManager : MonoBehaviour
 
         album.SetActive(false);
 
+        fleche1.SetActive(true);
+        fleche2.SetActive(true);
+
         verif.SetActive(true);
             
 
@@ -37,6 +43,9 @@ public class CameraManager : MonoBehaviour
     {
         bouton_retour.SetActive(true);
         bouton_album.SetActive(false);
+
+        fleche1.SetActive(false);
+        fleche2.SetActive(false);
 
         album.SetActive(true);
 
