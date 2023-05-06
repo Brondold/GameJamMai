@@ -11,8 +11,14 @@ public class CameraManager : MonoBehaviour
 
     public GameObject bouton_retour;
     public GameObject bouton_album;
+    public GameObject bouton_retour_photo;
 
     public GameObject album;
+
+    public GameObject photo1;
+    public GameObject photo2;
+    public GameObject photo3;
+    public GameObject photo4;
 
     public GameObject fleche1;
     public GameObject fleche2;
@@ -50,4 +56,55 @@ public class CameraManager : MonoBehaviour
         album.SetActive(true);
 
     }
+
+    public void Photo1()
+    {
+        photo1.SetActive(true);
+        bouton_retour_photo.SetActive(true);
+
+        bouton_retour.SetActive(false);
+    }
+
+    public void Photo2()
+    {
+        photo2.SetActive(true);
+        bouton_retour_photo.SetActive(true);
+
+        bouton_retour.SetActive(false);
+    }
+
+    public void Photo3()
+    {
+        photo3.SetActive(true);
+        bouton_retour_photo.SetActive(true);
+
+        bouton_retour.SetActive(false);
+    }
+
+    public void Photo4()
+    {
+        photo4.SetActive(true);
+        bouton_retour_photo.SetActive(true);
+
+        bouton_retour.SetActive(false);
+    }
+
+    public void RetourAlbum()
+    {
+        bouton_retour.SetActive(true);
+        bouton_album.SetActive(false);
+
+        fleche1.SetActive(false);
+        fleche2.SetActive(false);
+
+        album.SetActive(true);
+
+        bouton_retour_photo.SetActive(false);
+
+        photo1.SetActive(false);
+        photo2.SetActive(false);
+        photo3.SetActive(false);
+        photo4.SetActive(false);
+    }
 }
+ 
