@@ -24,13 +24,14 @@ public class S_ParkingManager : MonoBehaviour
         Puzzle += 1;
         if(Puzzle >=GoalPuzzle)
         {
-            print("fin du puzzle");
+            
             jouet_fin = true;
 
             if (jouet_fin)
             {
                 photo.SetActive(true);
                 texte.SetActive(true);
+                fond.SetActive(true);
                 StartCoroutine(Texte_1());
             }
         }
