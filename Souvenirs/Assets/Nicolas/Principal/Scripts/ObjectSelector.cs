@@ -14,7 +14,7 @@ public class ObjectSelector : MonoBehaviour
     private GameObject selection;
     private bool isSelected = false;
     private float throwForce = 20f;
-    private float distance = 0.5f;
+    private float distance = 1f;
 
     // Update is called once per frame
     void Update()
