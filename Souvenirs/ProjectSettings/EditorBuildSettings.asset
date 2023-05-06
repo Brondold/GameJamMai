@@ -11,7 +11,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Scene_BuildTest01.unity
     guid: 1b06966c4337a0c4d87083ea4d736fcc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene_BuildTest_Integration.unity
     guid: 77b6407766bf3814894bd4bff033f300
+  - enabled: 1
+    path: Assets/Hugo/MenuPrincipal_00.unity
+    guid: ddaae8867fa3b0d47865d4e765fd6cbe
+  - enabled: 1
+    path: Assets/Scenes/Build/Scene_Build_03.unity
+    guid: 58620c5943321ff4181d0aa7482969e6
   m_configObjects: {}

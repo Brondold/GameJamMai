@@ -9,7 +9,7 @@ public class MenuPrincipal : MonoBehaviour
     public GameObject AlienPanel;
     public void PlayGame()
     {
-        SceneManager.LoadScene("TestAssemble");
+        SceneManager.LoadScene("Scene_Build_03");
     }
     public void Quit()
     {
