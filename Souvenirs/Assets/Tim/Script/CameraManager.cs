@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class CameraManager : MonoBehaviour
@@ -25,8 +26,22 @@ public class CameraManager : MonoBehaviour
 
     public GameObject verif;
 
-    //public CinemachineVirtualCamera currentCamera;
+    public GameObject vjouet1;
+    public GameObject vjouet2;
+    public GameObject vjouet3;
+    public GameObject vjouet4;
 
+    public GameObject fin;
+
+    //public CinemachineVirtualCamera currentCamera;
+    private void Update()
+    {
+      if(vjouet1.activeSelf && vjouet2.activeSelf && vjouet3.activeSelf && vjouet4.activeSelf)
+        {
+            StartCoroutine(Timer());
+            StartCoroutine(FinalScene());
+        }  
+    }
     public void RetourCamera()
     {
         camera_grenier.enabled = true;
@@ -105,6 +120,23 @@ public class CameraManager : MonoBehaviour
         photo2.SetActive(false);
         photo3.SetActive(false);
         photo4.SetActive(false);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    private IEnumerator FinalScene()
+    {
+        yield return new WaitForSeconds(5.0f);
+        SceneManager.LoadScene("Fin");
+    }
+
+    private IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(5.0f);
+        fin.SetActive(true);
     }
 }
  

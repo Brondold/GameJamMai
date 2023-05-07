@@ -50,6 +50,8 @@ public class S_ParkingManager : MonoBehaviour
         }
     }
 
+    
+
     private IEnumerator Texte_1()
     {
         yield return new WaitForSeconds(5.0f);
